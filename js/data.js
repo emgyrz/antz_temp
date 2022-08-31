@@ -65,10 +65,10 @@ const products = [
   },
 ]
 
-products.forEach((product, ind) => {
+products.forEach( ( product, ind ) => {
   const id = ind + 1
   product.id = id
   product.imgSrc = `/img/products/${id}.svg`
-})
+} )
 
 export default products
